@@ -10,5 +10,5 @@ s.source = {:git => "https://github.com/wangjixiao1992/WJXImagePreview.git", :ta
 s.source_files  = "**/*.{h,m}"
 s.platform = :ios, "8.0"
 s.requires_arc = false
-s.framework = “SDWebImage” 
+s.library = “SDWebImage”
 end
